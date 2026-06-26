@@ -1,3 +1,5 @@
+## 🚀 Purchase Your Permanent Offline License
+https://buy.stripe.com/4gM4gsbwd0Hv2Tg6ZN9R600
 # pyr-AI-Enterprise
 pyr is a fully offline, air-gapped AI synthesis platform for generating production-ready codebases and native PowerPoint presentations without cloud API connections.
 # pyr
