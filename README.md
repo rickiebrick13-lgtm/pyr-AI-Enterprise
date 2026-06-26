@@ -14,36 +14,8 @@ pyr is a fully offline, air-gapped AI synthesis platform for generating producti
 
 ## Requirements
 
-- Python 3.11+ (tested in the local workspace with Python 3.14)
-- A local `.gguf` AI model file (e.g., `gemma4-12b.gguf`, `qwen2.5-7b-instruct.gguf`, or `gemma-2-9b-it.gguf`) placed directly in the `models/` directory.
 - Included `gemma4:12b` in models directory.
 
-
-## Running the Web Dashboard
-
-```bash
-python app.py
-```
-
-Then open `http://127.0.0.1:5000` in your browser.
-
-## Running the Runner Directly
-
-The runner can accept a compiled prompt via stdin or load the latest payload from the local database.
-
-```bash
-python runner.py < payload.txt
-```
-
-## Running the E2E Harness
-
-Use `e2e_runner.py` to execute the full flow from your current database payload into the sandbox, then print the audit summary.
-
-```bash
-python e2e_runner.py
-```
-
-If the app context is unavailable, the script will fall back to `test_ledger.db`.
 
 ## Audit output
 
@@ -80,7 +52,7 @@ Use `?project=<name>` to target a specific project directory, or omit it to fetc
 1. On your very first launch, `pyr` will calculate a unique **Machine ID** (e.g., `PYR-9A4B-22F1-807C`) derived from your motherboard and CPU hardware signatures.
 2. Copy this Machine ID and paste it into your purchase portal receipt page to instantly generate your **Offline Unlock Key**.
 3. Paste the Unlock Key into `pyr` to permanently unlock the application on your workstation.
-4. The default username and passwords would spin up in the terminal.
+4. The default username and passwords would spin up in the terminal. admin/admin123 if totally lost.
 
 
 ## 🤖 How to Add or Upgrade AI Models
