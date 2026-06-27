@@ -136,7 +136,6 @@ Use `?project=<name>` to target a specific project directory, or omit it to fetc
 26. swap .\start.bat with uvicorn main:app --reload --host 127.0.0.1 --port 8000 for development 
 
 27. Otherwise, just run the app generated in the IDE, usually named main.language
-
 28. Note: Use your own IDE/App to verify the outputs and check the files. Not included.
 
 
