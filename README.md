@@ -67,7 +67,7 @@ Use `?project=<name>` to target a specific project directory, or omit it to fetc
 
 1. After authenication key is input into the app, you'll face a login screen.
 
-2. The default username and passwords would spin up in the terminal. admin/admin123 if totally lost.
+2. The default username and passwords would spin up in the terminal. admin/admin123 , devuser/TestPass@123(for instantly jumping to sandbox) if totally lost.
 
 3. Within, you'll see a "Return to sandbox" Button on the top right, click it.
 
