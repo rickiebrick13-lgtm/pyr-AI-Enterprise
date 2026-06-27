@@ -47,7 +47,7 @@ Use `?project=<name>` to target a specific project directory, or omit it to fetc
 ## 💼 Commercial Offline Licensing & Activation
 
 `pyr` is built for maximum air-gap security and operates entirely offline without making external internet calls or license verification pings.
-The zip file is ~20GB in size, within, there are specific folders for different GPU vendors, CUDA for NVIDIA, Vulkan for AMD, and CPU version as a fallback
+The zip file is ~20GB in size, within, there are specific folders for different GPU vendors, NVIDIA, AMD, and CPU version as a fallback
 
 ### For Users (Unlocking Your Copy)
 1. On your very first launch, `pyr` will calculate a unique **Machine ID** (e.g., `PYR-9A4B-22F1-807C`) derived from your motherboard and CPU hardware signatures.
