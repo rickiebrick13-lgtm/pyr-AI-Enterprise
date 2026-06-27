@@ -122,7 +122,7 @@ Use `?project=<name>` to target a specific project directory, or omit it to fetc
 
 21. This app isn't good at front end design, but it'll handle most of the backend work. 
 
-22. PPTX output for simple prompts 
+22. PPTX output for simple prompts (You may need to move the generated action boxes around or realign the arrows)
 <img width="1584" height="746" alt="image" src="https://github.com/user-attachments/assets/23a369fd-29da-4fa9-b7b7-cfa05d225bcd" />
 
 23. Python output 
