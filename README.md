@@ -83,11 +83,14 @@ The zip file is ~20GB in size, within, there are specific folders for different 
 
 6. Fill in the project name 
 
-7. If you have a reference file, the model will use it as an example to follow to it's best ability 
+7. If you have a reference file, the model will use it as an example to follow to its best ability 
 
 7a. The checkboxes, Security Evaluation is not an cyber defense suite. It only scans for what is trained. 
+
 7b. Agentic reflection is a multi-agent review for generated code 
+
 7c. Model selection, as is name. Check it if you had loaded your own model into it 
+
 7d. Staged Pipeline, It's a two pass code generator mode. Use it for fewer full stack mistakes 
 
 8. Next under compile enrichments they're very literal 
@@ -96,7 +99,7 @@ The zip file is ~20GB in size, within, there are specific folders for different 
 9. Now advanced runner config, select your model, and context windows with max output tokens, each setting has a recommended RAM/VRAM tooltip 
 <img width="1208" height="594" alt="image" src="https://github.com/user-attachments/assets/ddfc7715-89e6-48f3-b54c-afd1b6092398" />
 
-10. Inference timeout is literally how much time you give for the model to work, generally the default settings work just fine, too short timings will truncate the outputs, note: if using staged pipeline, it will multiply by number of stages, but may or may not use up the time given 
+10. Inference timeout is literally how much time you give for the model to work, generally the default settings work just fine, truncation of output will happen if short timings are selected, note: if using staged pipeline, it will multiply by number of stages, but may or may not use up the time given 
 
 11. Test timeout is for the testing of full stack code generated 
 
@@ -104,7 +107,7 @@ The zip file is ~20GB in size, within, there are specific folders for different 
 
 13. <img width="1219" height="462" alt="image" src="https://github.com/user-attachments/assets/86612eb6-2edb-4ef3-9257-351d3bdf8190" />
 
-13a. Note: Models accuracy will follow the dropdown, lower, the worser, for C11, best to run it in a sandbox. 
+13a. Note: Included Model accuracy will follow the dropdown, lower, the worser, for C11, best to run it in a sandbox. 
 
 14. Click compile and optimise, and this is a preview 
 
