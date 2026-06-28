@@ -93,7 +93,7 @@ The zip file is ~20GB in size, within, there are specific folders for different 
 
 7d. Staged Pipeline, It's a two pass code generator mode. Use it for fewer full stack mistakes 
 
-8. Next under compile enrichments they're very literal 
+8. Next under compile enrichments they're very literal (Mouse over for more details within the app)
 <img width="1189" height="378" alt="image" src="https://github.com/user-attachments/assets/ae47ab96-3331-47f2-bc17-c59da26a71ee" />
 
 9. Now advanced runner config, select your model, and context windows with max output tokens, each setting has a recommended RAM/VRAM tooltip 
