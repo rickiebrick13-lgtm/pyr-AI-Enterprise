@@ -4,7 +4,7 @@ https://buy.stripe.com/4gM4gsbwd0Hv2Tg6ZN9R600
 pyr is a fully offline, air-gapped AI synthesis platform for generating production-ready codebases and native PowerPoint presentations without cloud API connections.
 
 # About the original name (pyr)
-It was a random selection of letters chosen, considering it uses python mainly, the original premise was to reduce token costs by writing an optimiser filled with semantic checking, AST validation and hard coded guardrails then pasting that into the frontier AI models, after, it evolved by attaching a local SLM/LLM and training that. Below, is how the app was setup. Now that it's released, I do not expect anything, but paying a one-time fee, and running the local offline models loaded into the /models folder, it will certainly cut down on token costs.
+It was a random selection of letters chosen, considering it uses python mainly, the original premise was to reduce token costs by writing an optimiser filled with semantic checking, AST validation and hard coded guardrails then pasting that into the frontier AI models, after, it evolved by attaching a local SLM/LLM and training that. Below, is how the app was setup. Now that it's released, I do not expect anything, but paying a one-time fee, and running the local offline models whether it be the default, or one of your choice loaded into the /models folder, it will certainly cut down on token costs.
 
 # pyr-AI-Enterprise
 
